@@ -92,3 +92,13 @@ header h1 {
   background-color: #000;
   border: 1px solid #fff;
 }
+
+@media only screen and (max-width: 850px) {
+  header {
+    padding: 20px 50px;
+  }
+
+  .footer {
+    padding: 60px 50px;
+  }
+}
